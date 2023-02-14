@@ -65,6 +65,4 @@ Sample Account:
 -  staff
    -  **Email**: johndoe@gmail.com, **Password**: johndoe123
 
-<br/>
-
 ##### &nbsp;&nbsp;&nbsp;Github Repository: https://github.com/reymondgomera/ellemar-booking-system
