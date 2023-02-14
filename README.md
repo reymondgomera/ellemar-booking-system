@@ -1,70 +1,70 @@
-# Getting Started with Create React App
+# El'lemar Online Booking System
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Live Preview Link: https://ellemar-booking-system.web.app
 
-## Available Scripts
+Screenshots:
+<img src="https://i.ibb.co/xsVMkW6/image.png" alt="image" border="0">
+<img src="https://i.ibb.co/jHCzQYM/image.png" alt="image" border="0">
+<img src="https://i.ibb.co/mym3XvS/image.png" alt="image" border="0">
+<img src="https://i.ibb.co/Z6QG5D3/image.png" alt="image" border="0">
+<img src="https://i.ibb.co/6NWctBZ/image.png" alt="image" border="0">
+<img src="https://i.ibb.co/C653YFT/image.png" alt="image" border="0">
+<img src="https://i.ibb.co/kMCSwwS/image.png" alt="image" border="0">
+<img src="https://i.ibb.co/6NWctBZ/image.png" alt="image" border="0">
 
-In the project directory, you can run:
+Technology Use:
 
-### `npm start`
+-  **Front-End** - HTML, CSS, Bootstrap, JS, React.JS (Hooks), Firebase (Firebase Firestore, Clound Storage, Authentication & Hosting)
+-  **Database** - Firebase Firestore
+-  **Hosting Platform** - Firebase
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+About:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+> A beach resort name El’lemar beach38 located in Sitio Babac, Brgy. Kisulad, Sta. Maria, Davao Occidental owned by Mr and Mrs Geverola. El’lemar beach38 resort is a resort that offers different services, aside from their beautiful beach, they also offer rooms for their customer to stay. And different activities that they can enjoy while staying. El’lemar beach38 resort allows their customer to book a room via using Facebook message. Then they manually log all the gathered information into a log book which serves as record book for customers bookings.
 
-### `npm test`
+> An Online booking system was created that aims to solve the problem of the beach resort regarding their manual booking system.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Problem:
 
-### `npm run build`
+> The information which the beach resort gathered is unsecured, prone to human error and managing the customer booking transactions is time consuming cause by their manual booking system.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Type of users:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+-  **Admin**
+-  **Staff**
+-  **Customer / Regular User**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Features:
 
-### `npm run eject`
+-  **Admin**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+   -  **Login/Logout** - Admin can login and logout from the system.
+   -  **Add staff** - Admin can add a staff.
+   -  **View staff List** - Admin can view the list of staffs.
+   -  **Update Status** - Admin can update the status of staff from "active" to "inactive" or vice versa.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+-  **Staff**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+   -  **Login/Logout** - Staff can login and logout from the system.
+   -  **View Booking List** - Staff can view list of bookings made by customers.
+   -  **Delete Booking** - Staff can delete a booking entry.
+   -  **Checkout Booking** - Staff can checkout a booking entry.
+   -  **Update/Extend Booking** - Staff can extend a booking entry.
+   -  **Search Booking** - Staff can search a booking entry using customer's name
+   -  **Add Room** - Staff can add a room.
+   -  **View Room List** - Staff can view the list of rooms.
+   -  **Update Room Status** - Staff can update the room's status from "Available" to "Occupied" or "Unavailable."
+   -  **Delete Account** - Staff can delete his/her account.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+-  **Customer** - Customer can book their desired room.
 
-## Learn More
+Sample Account:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+-  admin
+   -  **Email**: admin@gmail.com, **Password**: adminpass
+-  staff
+   -  **Email**: johndoe@gmail.com, **Password**: johndoe123
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<br/>
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+##### &nbsp;&nbsp;&nbsp;Github Repository: https://github.com/reymondgomera/ellemar-booking-system
