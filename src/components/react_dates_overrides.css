@@ -1,0 +1,85 @@
+/* for selected and hover days styles */
+.CalendarDay__selected_span {
+   background: #6ac5fa;
+   color: #fff;
+   border: 1px solid #44baff;
+}
+.CalendarDay__selected {
+   background: var(--primary-dark);
+   border: 1px double var(--primary);
+   color: #fff;
+}
+.CalendarDay__selected:hover {
+   background: var(--primary);
+   border: 1px double var(--primary);
+   color: #fff;
+}
+.CalendarDay__selected_span:active,
+.CalendarDay__selected_span:hover {
+   background: var(--primary);
+   border: 1px double var(--primary);
+   color: #fff;
+}
+.CalendarDay__hovered_span:hover,
+.CalendarDay__hovered_span {
+   background: #6ac5fa;
+}
+
+.DateInput_input__focused {
+   outline: 0;
+   background: #fff;
+   border: 0;
+   border-top: 0;
+   border-right: 0;
+   border-bottom: 2px solid var(--primary);
+   border-left: 0;
+}
+
+/* date picker inputs styles */
+.DateInput_input__small {
+   font-size: 0.98rem;
+}
+.DateInput {
+   width: 130px;
+}
+.DateRangePickerInput > .DateInput:last-child {
+   width: 130px;
+}
+.DateRangePickerInput > .DateInput:first-child .DateInput_input {
+   padding-right: 0;
+   padding-left: 20px;
+}
+.DateRangePickerInput_arrow {
+   padding: 0 20px 0 10px;
+}
+.DateRangePickerInput__withBorder {
+   border: 1px solid #ced4da;
+   border-radius: 8px;
+}
+
+/* for blocked days styles*/
+.CalendarDay__blocked_calendar,
+.CalendarDay__blocked_calendar:active,
+.CalendarDay__blocked_calendar:hover {
+   background: var(--danger);
+   color: #fff;
+}
+
+.DateRangePickerInput__withBorder.error {
+   border: solid 1px #dc3545;
+   padding-right: calc(1.5em + 0.75rem);
+   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12' width='12' height='12' fill='none' stroke='%23dc3545'%3e%3ccircle cx='6' cy='6' r='4.5'/%3e%3cpath stroke-linejoin='round' d='M5.8 3.6h.4L6 6.5z'/%3e%3ccircle cx='6' cy='8.2' r='.6' fill='%23dc3545' stroke='none'/%3e%3c/svg%3e");
+   background-repeat: no-repeat;
+   background-position: right calc(0.375em + 0.1875rem) center;
+   background-size: calc(0.75em + 0.375rem) calc(0.75em + 0.375rem);
+   border-radius: 8px;
+}
+
+.DateRangePickerInput__withBorder.valid {
+   border-color: #198754;
+   padding-right: calc(1.5em + 0.75rem);
+   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%23198754' d='M2.3 6.73L.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z'/%3e%3c/svg%3e");
+   background-repeat: no-repeat;
+   background-position: right calc(0.375em + 0.1875rem) center;
+   background-size: calc(0.75em + 0.375rem) calc(0.75em + 0.375rem);
+}
